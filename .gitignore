@@ -1,0 +1,40 @@
+﻿# Database files (NEVER commit to repository!)
+wedding_bot.db
+*.db
+
+# Secret credentials (BOT TOKEN!)
+.env
+.env.local
+.env.*.local
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+instance/
+.webassets-cache
+.sass-cache
+*.mo
+*.pot
+
+# OS-specific files
+.DS_Store
+Thumbs.db
